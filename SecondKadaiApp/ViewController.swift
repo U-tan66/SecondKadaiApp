@@ -8,12 +8,24 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var askLabel: UILabel!
+    @IBOutlet weak var nameTextField: UITextField!
+    @IBAction func showName(_ sender: Any) {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
     }
-
-
+    
+    override func prepare(for segue: UIStoryboardSegue, sender :Any?){
+        let sayHelloViewController: SayHelloViewController = segue.destination as! SayHelloViewController
+        
+        sayHelloViewController.name = nameTextField.text!
+    }
+    
+    @IBAction func goBack(_ segue: UIStoryboardSegue){
+        
+    }
 }
 

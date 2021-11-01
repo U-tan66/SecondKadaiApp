@@ -13,6 +13,7 @@
 		BB67FD19271970550022BBD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB67FD17271970550022BBD2 /* Main.storyboard */; };
 		BB67FD1B2719705B0022BBD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB67FD1A2719705B0022BBD2 /* Assets.xcassets */; };
 		BB67FD1E2719705B0022BBD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB67FD1C2719705B0022BBD2 /* LaunchScreen.storyboard */; };
+		BB67FD26271A10AF0022BBD2 /* SayHelloViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB67FD25271A10AF0022BBD2 /* SayHelloViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BB67FD1A2719705B0022BBD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB67FD1D2719705B0022BBD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB67FD1F2719705B0022BBD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB67FD25271A10AF0022BBD2 /* SayHelloViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SayHelloViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				BB67FD11271970550022BBD2 /* AppDelegate.swift */,
 				BB67FD13271970550022BBD2 /* SceneDelegate.swift */,
 				BB67FD15271970550022BBD2 /* ViewController.swift */,
+				BB67FD25271A10AF0022BBD2 /* SayHelloViewController.swift */,
 				BB67FD17271970550022BBD2 /* Main.storyboard */,
 				BB67FD1A2719705B0022BBD2 /* Assets.xcassets */,
 				BB67FD1C2719705B0022BBD2 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB67FD16271970550022BBD2 /* ViewController.swift in Sources */,
+				BB67FD26271A10AF0022BBD2 /* SayHelloViewController.swift in Sources */,
 				BB67FD12271970550022BBD2 /* AppDelegate.swift in Sources */,
 				BB67FD14271970550022BBD2 /* SceneDelegate.swift in Sources */,
 			);
